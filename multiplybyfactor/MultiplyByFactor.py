@@ -1,3 +1,6 @@
+Package_URL = 'git+https://github.com/luaithrenn/multiplybyfactyor.git'
+#URL of the package repository.
+
 import datetime as dt
 import json
 import pandas as pd
@@ -9,6 +12,8 @@ from iotfunctions.db import Database
 from iotfunctions import ui
 
 class MultiplyByFactor(BaseTransformer):
+    
+    url = Package_URL
     
     def __init__(self, input_items, factor, output_items):
                 
