@@ -1,4 +1,4 @@
-Package_URL = 'git+https://github.com/luaithrenn/multiplybyfactyor.git'
+Package_URL = 'git+https://github.com/luaithrenn/multiplybyfactor.git'
 #URL of the package repository.
 
 import datetime as dt
